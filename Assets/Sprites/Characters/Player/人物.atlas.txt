@@ -1,0 +1,65 @@
+人物.png
+size:1634,295
+filter:Linear,Linear
+pma:true
+另一只手
+bounds:1101,2,138,229
+offsets:0,0,139,230
+rotate:90
+叶子
+bounds:250,6,107,68
+offsets:0,1,109,71
+图层 1
+bounds:2,76,217,444
+rotate:90
+图层 11
+bounds:1332,36,257,249
+rotate:90
+图层 12
+bounds:1271,147,46,55
+rotate:90
+图层 13
+bounds:1054,142,215,151
+offsets:0,1,216,157
+图层 14
+bounds:2,4,70,112
+rotate:90
+图层 2
+bounds:359,13,61,118
+offsets:2,1,63,119
+rotate:90
+图层 4
+bounds:1583,208,49,85
+offsets:1,1,51,86
+图层 5
+bounds:116,15,59,132
+offsets:1,0,60,133
+rotate:90
+图层 6
+bounds:1271,195,49,98
+offsets:0,1,49,99
+图层 7
+bounds:479,6,105,256
+offsets:0,4,106,260
+rotate:90
+图层 8
+bounds:737,25,86,255
+offsets:1,0,93,256
+rotate:90
+图层 9
+bounds:1583,40,45,80
+offsets:1,0,46,80
+底部马尾
+bounds:448,113,180,370
+rotate:90
+手
+bounds:820,122,171,232
+offsets:0,0,172,233
+rotate:90
+衣服
+bounds:994,12,108,105
+offsets:44,0,152,105
+rotate:90
+领结
+bounds:1583,122,43,84
+offsets:1,1,47,86
