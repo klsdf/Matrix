@@ -11,7 +11,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - "\u4EA4\u4E92\u7269\u4F53"
   - 
   - 
   - 
@@ -38,6 +38,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: "\u80CC\u666F"
+    uniqueID: 792204869
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: "\u4EBA\u7269"
+    uniqueID: 2127723965
     locked: 0
