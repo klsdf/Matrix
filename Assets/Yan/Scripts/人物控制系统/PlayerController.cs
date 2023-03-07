@@ -18,22 +18,16 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        //var x = Input.GetAxis("Horizontal");
-        //var y = Input.GetAxis("Vertical");
 
-
-        //transform.position += speed * Time.deltaTime * new Vector3(x, y,0);
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            //var position = new Vector2(transform.position.x, transform.position.y);
-            //Collider2D[] collider2D = Physics2D.OverlapCircleAll(position,1.0f,1<<LayerMask.NameToLayer("交互物体"));
             if (interactObj != null)
             {
-                interactObj.GetComponent<InteractObject>().Interact();
+                interactObj.GetComponent<IInteractObject>().Interact();
             }
 
-            //print(collider2D[0]);
+
         }
 
 
@@ -42,12 +36,17 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        print(collision.name);
-        interactObj = collision.gameObject;
+        if (collision.GetComponent<IInteractObject>() !=null)
+        {
+            interactObj = collision.gameObject;
+            GameManager.Instance.ShowEmoji();
+        }
+
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
+        GameManager.Instance.NotShowEmoji();
         interactObj = null;
     }
 }
